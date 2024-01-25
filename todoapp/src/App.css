@@ -1,0 +1,137 @@
+body {
+  background-color: #bfdaf5;
+  color: white;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+}
+
+.todo-wrapper {
+  background-color: #353434;
+  padding: 2%;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  max-height: 80vh;
+  box-shadow: 0px 7px 7px rgb(36, 36, 36);
+  overflow-y: auto;
+}
+
+.todo-input {
+  display: grid;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  border-bottom: 1.5px solid grey;
+  padding-bottom: 10px;
+}
+
+.btn-area {
+  margin-top: 10px;
+  display: flex;
+  margin-bottom: 7px;
+}
+
+.todo-input-item {
+  display: grid;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 5%;
+}
+
+.todo-input-item label {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.todo-input-item input {
+  width: 280px;
+  padding: 8px;
+}
+
+.todo-input-item input:focus {
+  outline: 1.5px solid chocolate;
+}
+
+.primarybtn {
+  width: 70px;
+  padding: 5px;
+  justify-content: center;
+  margin-left: 100px;
+  border-radius: 7px;
+  cursor: pointer;
+  background-color: rgb(160, 240, 160);
+}
+
+.primarybtn:hover {
+  background-color: rgb(114, 236, 114);
+}
+
+.secondarybtn {
+  width: fit-content;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 7px;
+  cursor: pointer;
+  background-color: gray;
+}
+
+.secondarybtn:hover {
+  background-color: rgb(114, 236, 114);
+}
+
+.active {
+  background-color: rgb(160, 240, 160);
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-list-item {
+  background-color: #414040;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+.desc {
+  display: grid;
+}
+
+.todo-list-item h3 {
+  font-size: 25px;
+  color: rgb(0, 230, 122);
+  font-weight: bold;
+}
+
+.todo-list-item p {
+  font-size: 14px;
+  color: gray;
+}
+
+
+.delete-icon {
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.delete-icon:hover {
+  color: red;
+}
+
+.check-icon {
+  font-size: 35px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.check-icon:hover {
+  color: green;
+}
